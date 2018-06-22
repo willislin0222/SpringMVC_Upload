@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.upload.model.UploadVO" table="upload" >
+        
+     <id name="file_no" column="file_no">
+	    <generator class="identity" />
+	</id>
+        
+        <property name="name" column="name" />
+        <property name="address" column="address" />
+        <property name="birthday" column="birthday" />
+        <property name="photo" column="photo" />
+
+        
+    </class>
+</hibernate-mapping>
