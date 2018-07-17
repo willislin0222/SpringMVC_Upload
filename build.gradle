@@ -131,11 +131,4 @@ war {
         }
            
     }
-}ebInf{
-        from('src') {
-            include '**/*.*'
-            into('classes/')
-        }
-           
-    }
 }
